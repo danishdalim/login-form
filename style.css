@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;900&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-template {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    
+}
