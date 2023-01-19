@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Document</title>
+    <title>Login & Registration Form</title>
 </head>
 <body>
-    <div class="form-template">
-        <h1 class="create">Create your account</h1>
-        <div >
-            <form action="example.com" method="post" class="form">
-                <input type="email" name="email" id="user_email" placeholder="Email address">
-                <input type="submit" name="action" value="Continue">
-            </form>
-        </div>
-        <div class="button">
-            <button>Continue with Google</button>
-            <button>Continue with Microsoft Account</button>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+                <form action="example.com" method="post" class="form">
+                    <div class="input-field">
+                        <input type="email" name="email" id="user_email" placeholder="Email Address" required>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="password" id="user_password" placeholder="Password" required>
+                        <i class='bx bx-lock-alt'></i>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </div>
 </body>

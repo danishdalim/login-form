@@ -4,22 +4,39 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.form-template {
+body {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    background-color: #070707;
 }
 
-.button {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
-    
+.container {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .forms{
+    padding: 30px;
+}
+
+.container .forms .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.forms .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: ;
+    border-radius: 25px;
 }
