@@ -10,22 +10,33 @@
     <title>Login & Registration Form</title>
 </head>
 <body>
-    <div class="container">
-        <div class="forms">
-            <div class="form login">
-                <span class="title">Login</span>
-                <form action="example.com" method="post" class="form">
-                    <div class="input-field">
-                        <input type="email" name="email" id="user_email" placeholder="Email Address" required>
-                        <i class='bx bx-envelope'></i>
+    <div class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" name="email" id="user_email" placeholder="Email Address" required class="input">
                     </div>
-                    <div class="input-field">
-                        <input type="password" name="password" id="user_password" placeholder="Password" required>
-                        <i class='bx bx-lock-alt'></i>
+                    <div class="field input-field">
+                        <input type="password" name="password" id="user_password" placeholder="Password" required class="password">
+                        <i class="bx bx-hide eye-icon"></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-password">Forgot Password</a>
+                    </div>
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                    <div class="form-link">
+                        <span>Already have an account? <a href="" class="forgot-password">Signup</a></span>
                     </div>
                     
                 </form>
             </div>
+            <div class="line"></div>
+
         </div>
     </div>
 </body>
